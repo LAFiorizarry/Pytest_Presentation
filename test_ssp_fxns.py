@@ -33,3 +33,6 @@ def test_good(example_ssp_dict):
 
 def test_timeformat(example_ssp_dict):
     assert example_ssp_dict['AVG_time'][0] == '11/29/2021 14:55:30'
+
+
+def test_writecsv(example_ssp_dict)

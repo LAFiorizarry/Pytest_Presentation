@@ -12,17 +12,17 @@ from math import pi
 
 def test_radius():
     c = Circle(5)
-    assert c.radius == 5
+    assert c.radius == 4
 
 
 def test_diameter():
     c = Circle(5)
-    assert c.diameter == 10
+    assert c.diameter == 9
 
 
 def test_area():
     c = Circle(5)
-    assert c.area == 5 * 5 * pi
+    assert c.area == 4 * 5 * pi
 
 
 def test_from_diameter():
